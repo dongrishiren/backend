@@ -9,8 +9,12 @@ import 'element-ui/lib/theme-default/index.css'
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
-Vue.prototype.host_business = 'http://10.2.192.173:8000';
-Vue.prototype.host_backend = 'http://10.2.192.174:8001';
+// 公司ip
+// Vue.prototype.host_business = 'http://10.2.192.173:8000';
+// Vue.prototype.host_backend = 'http://10.2.192.174:8001';
+//家ip
+Vue.prototype.host_business = 'http://192.168.1.63:8000';
+Vue.prototype.host_backend = 'http://192.168.1.11:8001';
 
 /* eslint-disable no-new */
 new Vue({
