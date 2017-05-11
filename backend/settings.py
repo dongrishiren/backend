@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'backend',
+        'NAME': 'sport_backend',
         'USER': 'admin',
         'PASSWORD': 'szq814211077',
         'HOST': '127.0.0.1',
